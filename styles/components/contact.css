@@ -16,6 +16,21 @@
   color: var(--clr-slate600);
   max-width: 60ch;
 }
+.contact__description a img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color ease-in 0.3s, transform ease-in 0.3s,
+    box-shadow ease-in 0.3s;
+}
+
+.contact__description a img:hover {
+  background-color: var(--clr-rose);
+  transform: scale(1.1);
+  box-shadow: 0 5px 8px rgba(232, 36, 36, 0.3);
+}
+
 .contact__btn {
   font-size: var(--size-sm);
 }

@@ -32,17 +32,39 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
-  list-style-type: "\1F44D";
+  list-style-type: "";
   padding-left: 1em;
   flex: 1;
 }
 .about__list {
+  display: flex;
   font-size: var(--size-sm);
   color: var(--clr-slate600);
+  align-items: center;
 }
 .about__list::before {
   content: "";
   margin-left: 0.5em;
+}
+
+.about__list a {
+  text-decoration: none;
+}
+
+.about__list a:visited {
+  text-decoration: none;
+}
+
+.about__list a:hover {
+  color: var(--clr-slate400);
+  cursor: pointer;
+}
+
+.about__list-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  object-fit: contain;
 }
 
 /* xs   */

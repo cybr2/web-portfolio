@@ -46,6 +46,10 @@
   font-size: var(--size-sm);
   color: var(--clr-slate600);
   margin: 1rem 0;
+  transition: color ease-in 0.3s;
+}
+.work__project-description1:hover {
+  color: var(--clr-yellow);
 }
 
 .work__project-description2 {
@@ -56,9 +60,11 @@
 
 .work__project-btn {
   font-size: var(--size-sm);
+  margin-bottom: 3rem;
 }
 .work__project-subtitle {
   display: none;
+  margin-top: 5rem;
 }
 
 /* xs   */
